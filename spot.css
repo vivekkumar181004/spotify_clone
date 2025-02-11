@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+body{
+    background-color: rgb(252, 227, 196);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Kode Mono", monospace;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+}
+
+nav ul li {
+    padding: 0px 12px;
+}
+
+.spot_logo img{
+    height: 50px;
+    padding: 0px 8px;
+}
+
+.spot_logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.container{
+    min-height: 68vh;
+    background-color: black;
+    margin: 24px auto;
+    color: white;
+    display: flex;
+    width: 70%;
+    font-family: "Roboto Slab", serif;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url(music-bg.avif);
+    background-size: cover;   
+}
+
+.bottom{
+    height: 14vh;
+    background-color: black;
+    color: white;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons i{
+    margin: 4px 15px;
+    cursor: pointer;
+}
+
+.icons i:hover{
+    color: aquamarine;
+}
+
+.song-item-container{
+    margin-top: 50px;
+}
+
+.song-item{
+    height: 45px;
+    display: flex;
+    background-color: white;
+    /* width: 80%; */
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.song-item img{
+    height: 45px;
+    width: 60px;
+    margin: 0px 2px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+.song-name{
+    margin-right: 120px;
+}
+
+.time-stamp{
+    margin: 0px 25px;
+}
+.time-stamp i{
+    cursor: pointer;
+}
+
+.song-info{
+    position: absolute;
+    left: 9vw;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-family: "Roboto Slab", serif;
+}
+
+.song-info img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in ;
+}
