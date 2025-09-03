@@ -1,4 +1,3 @@
-console.log("welcome to spotify");
 
 // initialize the variables
 let songIndex = 0;
