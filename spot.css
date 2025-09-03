@@ -48,7 +48,7 @@ nav ul li {
     font-family: "Roboto Slab", serif;
     border-radius: 12px;
     padding: 20px;
-    background-image: url(music-bg.avif);
+    background-image: url(./covers/music-bg.avif);
     background-size: cover;
 }
 
